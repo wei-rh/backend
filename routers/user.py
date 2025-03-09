@@ -42,8 +42,8 @@ sqlite_url = f"sqlite:///{sqlite_file_name}"
 connect_args = {"check_same_thread": False}
 engine = create_engine(sqlite_url, connect_args=connect_args)
 SECRET_KEY = "09d25e094faa6ca2556c818166b7a9563b93f7099f6f0f4caa6cf63b88e8d3e7"
-ACCESS_KEY_ID = "LTAI5tAbCBQBZAGe3NM6LkTZ"
-ACCESS_KEY_SECRET = "7Ik2FyD7pnp9UB7vUAaj6vWRUDSSbZ"
+ACCESS_KEY_ID = ""
+ACCESS_KEY_SECRET = ""
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
